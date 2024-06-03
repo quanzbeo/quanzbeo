@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web của Tôi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-nav">
+            <a href="login.html" target="content-frame">Đăng nhập</a> |
+            <a href="register.html" target="content-frame">Đăng ký</a> |
+            <a href="forgot_password.html" target="content-frame">Quên mật khẩu</a>
+        </div>
+        <header>
+            <div class="info-company">
+                <h1>FPT Polytechnic</h1>
+                <strong>thực học - thực nghiệp</strong>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="content-frame">Trang chủ</a></li>
+                <li><a href="about.html" target="content-frame">Giới thiệu</a></li>
+                <li><a href="contact.html" target="content-frame">Liên hệ</a></li>
+                <li class="dropdown">
+                    <a  class="dropbtn">Dịch vụ</a>
+                    <div class="dropdown-content">
+                        <a href="dichvu.html" target="content-frame">Dịch vụ 1</a>
+                        <a href="service2.html" target="content-frame">Dịch vụ 2</a>
+                        <a href="service3.html" target="content-frame">Dịch vụ 3</a>
+                    </div>
+                </li>
+                <li><a href="feedback.html" target="content-frame">Góp ý</a></li>
+                <li><a href="faq.html" target="content-frame">Học Phí</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <article>
+                <iframe name="content-frame" src="home.html" style="width:100%; height:400px; border:none;"></iframe>
+            </article>
+            <aside>
+                <ul>
+                    <li><a href="tuyensinh.html" target="content-frame">&hearts; tuyển sinh &hearts;</a></li>
+                    <li><a href="thongbao.html" target="content-frame">&hearts; thông báo &hearts;</a></li>
+                    <li><a href="bangdiem.html" target="content-frame">&hearts; xem bảng điểm &hearts;</a></li>
+                    <li><a href="dichvu.html" target="content-frame">dịch vụ sinh viên &hearts;</a></li>
+                </ul>
+            </aside>
+        </div>
+        <footer>FPT Polytechnic © 2017. All rights reserved.</footer>
+    </div>
+</body>
+</html>
